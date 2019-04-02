@@ -239,7 +239,7 @@ func lookup(path string) (r Repo, err error) {
 }
 
 func lookupCodeRepo(rr *get.RepoRoot) (codehost.Repo, error) {
-	code, err := codehost.NewRepo(rr.VCS, rr.Repo)
+	code, err := codehost.NewRepo(rr.VCS, auth.FilterRepo(rr.Repo))
 	if err != nil {
 		if _, ok := err.(*codehost.VCSError); ok {
 			return nil, err

@@ -15,8 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/goproxyio/goproxy/pkg/proxy"
 	"github.com/knocknote/goproxy/auth"
+	"github.com/knocknote/goproxy/pkg/proxy"
 )
 
 var listen string
