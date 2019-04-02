@@ -21,7 +21,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	web "github.com/goproxyio/goproxy/internal/web2"
+	web "github.com/knocknote/goproxy/internal/web2"
 )
 
 var mode = flag.String("webtest", "replay", "set webtest `mode` - record, replay, bypass")

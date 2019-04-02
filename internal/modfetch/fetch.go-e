@@ -16,12 +16,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/dirhash"
-	"github.com/goproxyio/goproxy/internal/module"
-	"github.com/goproxyio/goproxy/internal/par"
-	"github.com/goproxyio/goproxy/internal/renameio"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/dirhash"
+	"github.com/knocknote/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/renameio"
 )
 
 var downloadCache par.Cache

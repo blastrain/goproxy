@@ -12,7 +12,6 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/knocknote/goproxy/auth"
 	"github.com/knocknote/goproxy/internal/cfg"
 	"github.com/knocknote/goproxy/internal/get"
 	"github.com/knocknote/goproxy/internal/modfetch/codehost"
@@ -239,7 +238,7 @@ func lookup(path string) (r Repo, err error) {
 }
 
 func lookupCodeRepo(rr *get.RepoRoot) (codehost.Repo, error) {
-	code, err := codehost.NewRepo(rr.VCS, auth.FilterRepo(rr.Repo))
+	code, err := codehost.NewRepo(rr.VCS, rr.Repo)
 	if err != nil {
 		if _, ok := err.(*codehost.VCSError); ok {
 			return nil, err

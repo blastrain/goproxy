@@ -9,7 +9,7 @@ package modfetch
 import (
 	"io"
 
-	web "github.com/goproxyio/goproxy/internal/web2"
+	web "github.com/knocknote/goproxy/internal/web2"
 )
 
 // webGetGoGet fetches a go-get=1 URL and returns the body in *body.

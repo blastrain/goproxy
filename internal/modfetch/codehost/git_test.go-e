@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/goproxyio/goproxy/internal/testenv"
+	"github.com/knocknote/goproxy/internal/testenv"
 	"io/ioutil"
 	"log"
 	"os"

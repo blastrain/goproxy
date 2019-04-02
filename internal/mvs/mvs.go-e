@@ -11,9 +11,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/module"
-	"github.com/goproxyio/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/par"
 )
 
 // A Reqs is the requirement graph on which Minimal Version Selection (MVS) operates.

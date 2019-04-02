@@ -15,11 +15,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/modfetch"
-	"github.com/goproxyio/goproxy/internal/modfile"
-	"github.com/goproxyio/goproxy/internal/modload"
-	"github.com/goproxyio/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/modfetch"
+	"github.com/knocknote/goproxy/internal/modfile"
+	"github.com/knocknote/goproxy/internal/modload"
+	"github.com/knocknote/goproxy/internal/module"
 )
 
 var cmdEdit = &base.Command{

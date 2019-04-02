@@ -15,10 +15,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cmdflag"
-	"github.com/goproxyio/goproxy/internal/str"
-	"github.com/goproxyio/goproxy/internal/work"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cmdflag"
+	"github.com/knocknote/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/work"
 )
 
 // go vet flag processing

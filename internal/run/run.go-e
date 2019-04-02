@@ -10,11 +10,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/load"
-	"github.com/goproxyio/goproxy/internal/str"
-	"github.com/goproxyio/goproxy/internal/work"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/load"
+	"github.com/knocknote/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/work"
 )
 
 var CmdRun = &base.Command{

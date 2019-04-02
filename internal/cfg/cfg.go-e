@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/goproxyio/goproxy/internal/objabi"
+	"github.com/knocknote/goproxy/internal/objabi"
 )
 
 // These are general "build flags" used by build and other commands.

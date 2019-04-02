@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/load"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/load"
 )
 
 func TestRemoveDevNull(t *testing.T) {

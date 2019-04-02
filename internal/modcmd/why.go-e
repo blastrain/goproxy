@@ -5,9 +5,9 @@
 package modcmd
 
 import (
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/modload"
-	"github.com/goproxyio/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/modload"
+	"github.com/knocknote/goproxy/internal/module"
 	"fmt"
 	"strings"
 )

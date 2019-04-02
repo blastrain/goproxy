@@ -12,13 +12,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/get"
-	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
-	"github.com/goproxyio/goproxy/internal/par"
-	"github.com/goproxyio/goproxy/internal/semver"
-	web "github.com/goproxyio/goproxy/internal/web"
-	"github.com/knocknote/goproxy"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/get"
+	"github.com/knocknote/goproxy/internal/modfetch/codehost"
+	"github.com/knocknote/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/semver"
+	web "github.com/knocknote/goproxy/internal/web"
 )
 
 const traceRepo = false // trace all repo actions, for debugging
@@ -239,7 +238,7 @@ func lookup(path string) (r Repo, err error) {
 }
 
 func lookupCodeRepo(rr *get.RepoRoot) (codehost.Repo, error) {
-	code, err := codehost.NewRepo(rr.VCS, goproxy.FilterRepo(rr.Repo))
+	code, err := codehost.NewRepo(rr.VCS, rr.Repo)
 	if err != nil {
 		if _, ok := err.(*codehost.VCSError); ok {
 			return nil, err

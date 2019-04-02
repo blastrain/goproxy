@@ -7,8 +7,8 @@ package modconv
 import (
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/modfile"
-	"github.com/goproxyio/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/modfile"
+	"github.com/knocknote/goproxy/internal/module"
 )
 
 func ParseGLOCKFILE(file string, data []byte) (*modfile.File, error) {

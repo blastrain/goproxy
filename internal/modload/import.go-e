@@ -9,20 +9,20 @@ import (
 	"errors"
 	"fmt"
 	"go/build"
-	"github.com/goproxyio/goproxy/internal/goroot"
+	"github.com/knocknote/goproxy/internal/goroot"
 	"os"
 	"path/filepath"
 	"sort"
 	"strings"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/modfetch"
-	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
-	"github.com/goproxyio/goproxy/internal/module"
-	"github.com/goproxyio/goproxy/internal/par"
-	"github.com/goproxyio/goproxy/internal/search"
-	"github.com/goproxyio/goproxy/internal/semver"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/modfetch"
+	"github.com/knocknote/goproxy/internal/modfetch/codehost"
+	"github.com/knocknote/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/search"
+	"github.com/knocknote/goproxy/internal/semver"
 )
 
 type ImportMissingError struct {

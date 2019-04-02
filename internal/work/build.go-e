@@ -15,10 +15,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/load"
-	"github.com/goproxyio/goproxy/internal/search"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/load"
+	"github.com/knocknote/goproxy/internal/search"
 )
 
 var CmdBuild = &base.Command{
@@ -163,7 +163,7 @@ func init() {
 }
 
 // Note that flags consulted by other parts of the code
-// (for example, buildV) are in github.com/goproxyio/goproxy/internal/cfg.
+// (for example, buildV) are in github.com/knocknote/goproxy/internal/cfg.
 
 var (
 	forcedAsmflags   []string // internally-forced flags for cmd/asm

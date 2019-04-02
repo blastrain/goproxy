@@ -20,11 +20,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/modinfo"
-	"github.com/goproxyio/goproxy/internal/search"
-	"github.com/goproxyio/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/modinfo"
+	"github.com/knocknote/goproxy/internal/search"
+	"github.com/knocknote/goproxy/internal/str"
 )
 
 var (

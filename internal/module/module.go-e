@@ -24,7 +24,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/goproxyio/goproxy/internal/semver"
+	"github.com/knocknote/goproxy/internal/semver"
 )
 
 // A Version is defined by a module path and version pair.

@@ -5,7 +5,7 @@
 // Package modcmd implements the ``go mod'' command.
 package modcmd
 
-import "github.com/goproxyio/goproxy/internal/base"
+import "github.com/knocknote/goproxy/internal/base"
 
 var CmdMod = &base.Command{
 	UsageLine: "go mod",

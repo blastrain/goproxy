@@ -4,7 +4,7 @@
 
 package help
 
-import "github.com/goproxyio/goproxy/internal/base"
+import "github.com/knocknote/goproxy/internal/base"
 
 var HelpC = &base.Command{
 	UsageLine: "c",

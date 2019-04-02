@@ -18,11 +18,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/load"
-	"github.com/goproxyio/goproxy/internal/modload"
-	"github.com/goproxyio/goproxy/internal/work"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/load"
+	"github.com/knocknote/goproxy/internal/modload"
+	"github.com/knocknote/goproxy/internal/work"
 )
 
 var CmdGenerate = &base.Command{
