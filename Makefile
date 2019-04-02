@@ -4,7 +4,7 @@ export GO111MODULE=on
 
 all: build
 
-build: generate
+build:
 	@go build -o bin/goproxy -ldflags "-s -w" .
 
 generate:
