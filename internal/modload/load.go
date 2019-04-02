@@ -17,17 +17,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/imports"
-	"github.com/goproxyio/goproxy/internal/modfetch"
-	"github.com/goproxyio/goproxy/internal/modfile"
-	"github.com/goproxyio/goproxy/internal/module"
-	"github.com/goproxyio/goproxy/internal/mvs"
-	"github.com/goproxyio/goproxy/internal/par"
-	"github.com/goproxyio/goproxy/internal/search"
-	"github.com/goproxyio/goproxy/internal/semver"
-	"github.com/goproxyio/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/imports"
+	"github.com/knocknote/goproxy/internal/modfetch"
+	"github.com/knocknote/goproxy/internal/modfile"
+	"github.com/knocknote/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/mvs"
+	"github.com/knocknote/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/search"
+	"github.com/knocknote/goproxy/internal/semver"
+	"github.com/knocknote/goproxy/internal/str"
 )
 
 // buildList is the list of modules to use for building packages.

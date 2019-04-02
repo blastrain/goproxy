@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/lockedfile"
-	"github.com/goproxyio/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/lockedfile"
+	"github.com/knocknote/goproxy/internal/par"
 )
 
 // GitRepo returns the code repository at the given Git remote reference.

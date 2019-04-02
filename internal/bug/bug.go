@@ -17,10 +17,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/envcmd"
-	"github.com/goproxyio/goproxy/internal/web"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/envcmd"
+	"github.com/knocknote/goproxy/internal/web"
 )
 
 var CmdBug = &base.Command{

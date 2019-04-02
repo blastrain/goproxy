@@ -12,12 +12,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/get"
-	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
-	"github.com/goproxyio/goproxy/internal/par"
-	"github.com/goproxyio/goproxy/internal/semver"
-	web "github.com/goproxyio/goproxy/internal/web"
+	"github.com/knocknote/goproxy/auth"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/get"
+	"github.com/knocknote/goproxy/internal/modfetch/codehost"
+	"github.com/knocknote/goproxy/internal/par"
+	"github.com/knocknote/goproxy/internal/semver"
+	web "github.com/knocknote/goproxy/internal/web"
 )
 
 const traceRepo = false // trace all repo actions, for debugging

@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/modfetch"
-	"github.com/goproxyio/goproxy/internal/modload"
-	"github.com/goproxyio/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/modfetch"
+	"github.com/knocknote/goproxy/internal/modload"
+	"github.com/knocknote/goproxy/internal/module"
 )
 
 var cmdTidy = &base.Command{

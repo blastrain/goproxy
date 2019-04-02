@@ -5,8 +5,8 @@
 package search
 
 import (
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/cfg"
 	"fmt"
 	"go/build"
 	"log"

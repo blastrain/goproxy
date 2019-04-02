@@ -35,7 +35,7 @@
 package modfetch
 
 import (
-	"github.com/goproxyio/goproxy/internal/semver"
+	"github.com/knocknote/goproxy/internal/semver"
 	"fmt"
 	"regexp"
 	"strings"

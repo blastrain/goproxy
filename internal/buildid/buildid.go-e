@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"debug/elf"
 	"fmt"
-	"internal/xcoff"
+	"github.com/goproxyio/goproxy/internal/xcoff"
 	"io"
 	"os"
 	"strconv"

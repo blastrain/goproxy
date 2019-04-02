@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
-	"github.com/goproxyio/goproxy/internal/lockedfile"
-	"github.com/goproxyio/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/lockedfile"
+	"github.com/knocknote/goproxy/internal/str"
 )
 
 // Downloaded size limits.
@@ -127,7 +127,7 @@ func ShortenSHA1(rev string) string {
 }
 
 // WorkRoot is the root of the cached work directory.
-// It is set by github.com/goproxyio/goproxy/internal/modload.InitMod.
+// It is set by github.com/knocknote/goproxy/internal/modload.InitMod.
 var WorkRoot string
 
 // WorkDir returns the name of the cached work directory to use for the

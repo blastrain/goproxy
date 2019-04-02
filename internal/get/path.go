@@ -11,7 +11,7 @@ import (
 	"unicode/utf8"
 )
 
-// The following functions are copied verbatim from github.com/goproxyio/goproxy/internal/module/module.go,
+// The following functions are copied verbatim from github.com/knocknote/goproxy/internal/module/module.go,
 // with a change to additionally reject Windows short-names,
 // and one to accept arbitrary letters (golang.org/issue/29101).
 //

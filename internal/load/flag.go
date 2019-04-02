@@ -5,8 +5,8 @@
 package load
 
 import (
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/str"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/str"
 	"fmt"
 	"strings"
 )
