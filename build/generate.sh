@@ -32,13 +32,13 @@ then
     cp -r "${GOROOT}/src/cmd/internal/sys" "${PKG}"
 fi
 
-find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/cmd\/go\/internal/github.com\/goproxyio\/goproxy\/internal/g' {} +
-find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/cmd\/internal/github.com\/goproxyio\/goproxy\/internal/g' {} +
-find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/singleflight/github.com\/goproxyio\/goproxy\/internal\/singleflight/g' {} +
-find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/testenv/github.com\/goproxyio\/goproxy\/internal\/testenv/g' {} +
+find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/cmd\/go\/internal/github.com\/knocknote\/goproxy\/internal/g' {} +
+find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/cmd\/internal/github.com\/knocknote\/goproxy\/internal/g' {} +
+find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/singleflight/github.com\/knocknote\/goproxy\/internal\/singleflight/g' {} +
+find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/testenv/github.com\/knocknote\/goproxy\/internal\/testenv/g' {} +
 
 if [[ "$GTGO12" = "1" ]]
 then
-    find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/goroot/github.com\/goproxyio\/goproxy\/internal\/goroot/g' {} +
-    find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/xcoff/github.com\/goproxyio\/goproxy\/internal\/xcoff/g' {} +
+    find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/goroot/github.com\/knocknote\/goproxy\/internal\/goroot/g' {} +
+    find "${PKG}" -type f -name '*.go' -exec sed -i -e 's/internal\/xcoff/github.com\/knocknote\/goproxy\/internal\/xcoff/g' {} +
 fi

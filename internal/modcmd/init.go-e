@@ -7,8 +7,8 @@
 package modcmd
 
 import (
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/modload"
+	"github.com/knocknote/goproxy/internal/base"
+	"github.com/knocknote/goproxy/internal/modload"
 	"os"
 	"strings"
 )

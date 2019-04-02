@@ -9,7 +9,7 @@ package lockedfile
 import (
 	"os"
 
-	"github.com/goproxyio/goproxy/internal/lockedfile/internal/filelock"
+	"github.com/knocknote/goproxy/internal/lockedfile/internal/filelock"
 )
 
 func openFile(name string, flag int, perm os.FileMode) (*os.File, error) {

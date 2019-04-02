@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
+	"github.com/knocknote/goproxy/internal/cfg"
 )
 
 // Configuration for finding tool binaries.

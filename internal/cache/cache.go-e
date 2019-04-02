@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/renameio"
+	"github.com/knocknote/goproxy/internal/renameio"
 )
 
 // An ActionID is a cache action key, the hash of a complete description of a

@@ -8,7 +8,7 @@ package filelock_test
 
 import (
 	"fmt"
-	"github.com/goproxyio/goproxy/internal/testenv"
+	"github.com/knocknote/goproxy/internal/testenv"
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/lockedfile/internal/filelock"
+	"github.com/knocknote/goproxy/internal/lockedfile/internal/filelock"
 )
 
 func lock(t *testing.T, f *os.File) {

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/goproxyio/goproxy/internal/module"
-	"github.com/goproxyio/goproxy/internal/semver"
+	"github.com/knocknote/goproxy/internal/module"
+	"github.com/knocknote/goproxy/internal/semver"
 )
 
 // A File is the parsed, interpreted form of a go.mod file.

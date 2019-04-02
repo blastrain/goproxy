@@ -4,7 +4,7 @@
 
 package imports
 
-import "github.com/goproxyio/goproxy/internal/cfg"
+import "github.com/knocknote/goproxy/internal/cfg"
 
 var tags map[string]bool
 
