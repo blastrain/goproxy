@@ -15,7 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/goproxyio/goproxy/pkg/proxy"
+	"github.com/knocknote/goproxy/auth"
+	"github.com/knocknote/goproxy/pkg/proxy"
 )
 
 var listen string
@@ -25,6 +26,7 @@ func init() {
 	log.SetOutput(os.Stdout)
 	flag.StringVar(&cacheDir, "cacheDir", "", "go modules cache dir")
 	flag.StringVar(&listen, "listen", "0.0.0.0:8081", "service listen address")
+	flag.StringVar(&auth.BasicAuthToken, "basicAuthToken", "", "basic authentication token for access private repository")
 	flag.Parse()
 	isGitValid := checkGitVersion()
 	if !isGitValid {
