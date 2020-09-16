@@ -1,3 +1,3 @@
-module github.com/knocknote/goproxy
+module github.com/blastrain/goproxy
 
 go 1.12
