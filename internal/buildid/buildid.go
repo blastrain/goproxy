@@ -106,7 +106,7 @@ func ReadFile(name string) (id string, err error) {
 // readGccgoArchive tries to parse the archive as a standard Unix
 // archive file, and fetch the build ID from the _buildid.o entry.
 // The _buildid.o entry is written by (*Builder).gccgoBuildIDELFFile
-// in github.com/knocknote/goproxy/internal/work/exec.go.
+// in github.com/blastrain/goproxy/internal/work/exec.go.
 func readGccgoArchive(name string, f *os.File) (string, error) {
 	bad := func() (string, error) {
 		return "", &os.PathError{Op: "parse", Path: name, Err: errBuildIDMalformed}
@@ -164,7 +164,7 @@ func readGccgoArchive(name string, f *os.File) (string, error) {
 // readGccgoBigArchive tries to parse the archive as an AIX big
 // archive file, and fetch the build ID from the _buildid.o entry.
 // The _buildid.o entry is written by (*Builder).gccgoBuildIDXCOFFFile
-// in github.com/knocknote/goproxy/internal/work/exec.go.
+// in github.com/blastrain/goproxy/internal/work/exec.go.
 func readGccgoBigArchive(name string, f *os.File) (string, error) {
 	bad := func() (string, error) {
 		return "", &os.PathError{Op: "parse", Path: name, Err: errBuildIDMalformed}

@@ -127,7 +127,7 @@ func ShortenSHA1(rev string) string {
 }
 
 // WorkRoot is the root of the cached work directory.
-// It is set by github.com/knocknote/goproxy/internal/modload.InitMod.
+// It is set by github.com/blastrain/goproxy/internal/modload.InitMod.
 var WorkRoot string
 
 // WorkDir returns the name of the cached work directory to use for the

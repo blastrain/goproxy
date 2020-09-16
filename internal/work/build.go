@@ -163,7 +163,7 @@ func init() {
 }
 
 // Note that flags consulted by other parts of the code
-// (for example, buildV) are in github.com/knocknote/goproxy/internal/cfg.
+// (for example, buildV) are in github.com/blastrain/goproxy/internal/cfg.
 
 var (
 	forcedAsmflags   []string // internally-forced flags for cmd/asm

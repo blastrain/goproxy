@@ -711,7 +711,7 @@ func (b *Builder) build(a *Action) (err error) {
 
 	// For gccgo on ELF systems, we write the build ID as an assembler file.
 	// This lets us set the SHF_EXCLUDE flag.
-	// This is read by readGccgoArchive in github.com/knocknote/goproxy/internal/buildid/buildid.go.
+	// This is read by readGccgoArchive in github.com/blastrain/goproxy/internal/buildid/buildid.go.
 	if a.buildID != "" && cfg.BuildToolchainName == "gccgo" {
 		switch cfg.Goos {
 		case "aix", "android", "dragonfly", "freebsd", "linux", "netbsd", "openbsd", "solaris":
