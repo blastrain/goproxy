@@ -7,8 +7,8 @@ package modconv
 import (
 	"encoding/json"
 
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
 )
 
 func ParseGodepsJSON(file string, data []byte) (*modfile.File, error) {

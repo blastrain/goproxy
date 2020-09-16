@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/knocknote/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/base"
 )
 
 var CmdVersion = &base.Command{

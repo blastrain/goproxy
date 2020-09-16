@@ -7,7 +7,7 @@ package modconv
 import (
 	"bytes"
 	"fmt"
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/testenv"
 	"io/ioutil"
 	"log"
 	"os"
@@ -16,11 +16,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/modfetch"
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/modfetch"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
 )
 
 func TestMain(m *testing.M) {

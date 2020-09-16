@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/cfg"
 )
 
 var (

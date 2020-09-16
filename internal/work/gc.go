@@ -16,12 +16,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/objabi"
 	"crypto/sha1"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/objabi"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // The Go toolchain.

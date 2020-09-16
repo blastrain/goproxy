@@ -5,7 +5,7 @@
 package imports
 
 import (
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/testenv"
 	"path/filepath"
 	"reflect"
 	"runtime"

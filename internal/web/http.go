@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/browser"
+	"github.com/blastrain/goproxy/internal/browser"
+	"github.com/blastrain/goproxy/internal/cfg"
 )
 
 // httpClient is the default HTTP client, but a variable so it can be

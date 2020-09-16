@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/knocknote/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/module"
 )
 
 var tests = `

@@ -6,8 +6,8 @@
 package doc
 
 import (
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
 )
 
 var CmdDoc = &base.Command{

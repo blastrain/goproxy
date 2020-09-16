@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/lockedfile"
+	"github.com/blastrain/goproxy/internal/lockedfile"
 )
 
 func mustTempDir(t *testing.T) (dir string, remove func()) {

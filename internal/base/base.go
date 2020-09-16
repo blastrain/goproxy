@@ -18,8 +18,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // A Command is an implementation of a go command

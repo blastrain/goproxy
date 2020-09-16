@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/modload"
-	"github.com/knocknote/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/modload"
+	"github.com/blastrain/goproxy/internal/module"
 )
 
 var cmdVendor = &base.Command{

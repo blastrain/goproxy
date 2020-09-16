@@ -5,7 +5,7 @@
 package modload
 
 import (
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/testenv"
 	"regexp"
 	"strings"
 	"testing"

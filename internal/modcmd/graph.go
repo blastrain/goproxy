@@ -11,10 +11,10 @@ import (
 	"os"
 	"sort"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/modload"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/par"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/modload"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/par"
 )
 
 var cmdGraph = &base.Command{

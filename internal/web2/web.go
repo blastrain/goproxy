@@ -6,11 +6,11 @@ package web2
 
 import (
 	"bytes"
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
 	"io"
 	"io/ioutil"
 	"log"

@@ -6,14 +6,14 @@ package get
 
 import (
 	"errors"
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/testenv"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"testing"
 
-	"github.com/knocknote/goproxy/internal/web"
+	"github.com/blastrain/goproxy/internal/web"
 )
 
 // Test that RepoRootForImportPath determines the correct RepoRoot for a given importPath.

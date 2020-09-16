@@ -15,10 +15,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/search"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/search"
 )
 
 var CmdBuild = &base.Command{

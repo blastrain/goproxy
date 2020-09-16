@@ -20,11 +20,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/modinfo"
-	"github.com/knocknote/goproxy/internal/search"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/modinfo"
+	"github.com/blastrain/goproxy/internal/search"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 var (

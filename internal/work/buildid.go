@@ -12,12 +12,12 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cache"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/buildid"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/buildid"
+	"github.com/blastrain/goproxy/internal/cache"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // Build IDs

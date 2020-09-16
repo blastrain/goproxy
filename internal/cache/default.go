@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/knocknote/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/base"
 )
 
 // Default returns the default cache to use, or nil if no cache should be used.

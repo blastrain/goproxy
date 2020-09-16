@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 func Unzip(dir, zipfile, prefix string, maxSize int64) error {

@@ -6,7 +6,7 @@ package modfetch
 
 import (
 	"archive/zip"
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/testenv"
 	"io"
 	"io/ioutil"
 	"log"
@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
 )
 
 func TestMain(m *testing.M) {

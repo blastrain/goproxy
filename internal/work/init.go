@@ -7,12 +7,12 @@
 package work
 
 import (
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/sys"
 	"flag"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/sys"
 	"os"
 	"path/filepath"
 	"strings"

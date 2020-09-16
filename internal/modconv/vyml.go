@@ -7,8 +7,8 @@ package modconv
 import (
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
 )
 
 func ParseVendorYML(file string, data []byte) (*modfile.File, error) {

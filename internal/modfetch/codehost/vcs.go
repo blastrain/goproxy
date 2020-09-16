@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/lockedfile"
-	"github.com/knocknote/goproxy/internal/par"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/lockedfile"
+	"github.com/blastrain/goproxy/internal/par"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // A VCSError indicates an error using a version control system.

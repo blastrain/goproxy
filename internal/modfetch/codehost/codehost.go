@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/lockedfile"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/lockedfile"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // Downloaded size limits.
