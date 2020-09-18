@@ -12,8 +12,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
 )
 
 var CmdTool = &base.Command{

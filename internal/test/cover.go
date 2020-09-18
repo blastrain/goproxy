@@ -5,8 +5,8 @@
 package test
 
 import (
-	"github.com/knocknote/goproxy/internal/base"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/base"
 	"io"
 	"os"
 	"path/filepath"

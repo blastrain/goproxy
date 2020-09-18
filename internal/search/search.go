@@ -5,9 +5,9 @@
 package search
 
 import (
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
 	"go/build"
 	"log"
 	"os"

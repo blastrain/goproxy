@@ -13,10 +13,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/semver"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/semver"
 )
 
 // A codeRepo implements modfetch.Repo using an underlying codehost.Repo.

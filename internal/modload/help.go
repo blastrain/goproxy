@@ -4,7 +4,7 @@
 
 package modload
 
-import "github.com/knocknote/goproxy/internal/base"
+import "github.com/blastrain/goproxy/internal/base"
 
 // TODO(rsc): The "module code layout" section needs to be written.
 

@@ -12,12 +12,12 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cache"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/buildid"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/buildid"
+	"github.com/blastrain/goproxy/internal/cache"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // Build IDs
@@ -26,7 +26,7 @@ import (
 // the action ID, which is a hash of the inputs to the action that produced
 // the packages or binary, and the content ID, which is a hash of the action
 // output, namely the archive or binary itself. The hash is the same one
-// used by the build artifact cache (see github.com/knocknote/goproxy/internal/cache), but
+// used by the build artifact cache (see github.com/blastrain/goproxy/internal/cache), but
 // truncated when stored in packages and binaries, as the full length is not
 // needed and is a bit unwieldy. The precise form is
 //

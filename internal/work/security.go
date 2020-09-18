@@ -30,8 +30,8 @@
 package work
 
 import (
-	"github.com/knocknote/goproxy/internal/load"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/load"
 	"os"
 	"regexp"
 	"strings"

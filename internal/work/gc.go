@@ -16,12 +16,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/objabi"
 	"crypto/sha1"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/objabi"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // The Go toolchain.
@@ -519,7 +519,7 @@ func (gcToolchain) ld(b *Builder, root *Action, out, importcfg, mainpkg string) 
 	// Store BuildID inside toolchain binaries as a unique identifier of the
 	// tool being run, for use by content-based staleness determination.
 	if root.Package.Goroot && strings.HasPrefix(root.Package.ImportPath, "cmd/") {
-		ldflags = append(ldflags, "-X=github.com/knocknote/goproxy/internal/objabi.buildID="+root.buildID)
+		ldflags = append(ldflags, "-X=github.com/blastrain/goproxy/internal/objabi.buildID="+root.buildID)
 	}
 
 	// If the user has not specified the -extld option, then specify the

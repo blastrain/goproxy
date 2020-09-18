@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/cmdflag"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/work"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/cmdflag"
+	"github.com/blastrain/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/work"
 )
 
 const cmd = "test"

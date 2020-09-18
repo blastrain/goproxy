@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/modfetch"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/testenv"
+	"github.com/blastrain/goproxy/internal/modfetch"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/testenv"
 )
 
 var _handle http.Handler

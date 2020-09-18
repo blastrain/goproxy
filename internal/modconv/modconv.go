@@ -4,7 +4,7 @@
 
 package modconv
 
-import "github.com/knocknote/goproxy/internal/modfile"
+import "github.com/blastrain/goproxy/internal/modfile"
 
 var Converters = map[string]func(string, []byte) (*modfile.File, error){
 	"GLOCKFILE":          ParseGLOCKFILE,

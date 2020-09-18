@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/modfetch"
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/par"
-	"github.com/knocknote/goproxy/internal/semver"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/modfetch"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/par"
+	"github.com/blastrain/goproxy/internal/semver"
 )
 
 // ConvertLegacyConfig converts legacy config to modfile.

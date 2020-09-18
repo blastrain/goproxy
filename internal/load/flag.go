@@ -5,9 +5,9 @@
 package load
 
 import (
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/str"
 	"fmt"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/str"
 	"strings"
 )
 

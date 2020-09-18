@@ -23,15 +23,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cache"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/lockedfile"
-	"github.com/knocknote/goproxy/internal/modload"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/work"
-	"github.com/knocknote/goproxy/internal/test2json"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cache"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/lockedfile"
+	"github.com/blastrain/goproxy/internal/modload"
+	"github.com/blastrain/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/test2json"
+	"github.com/blastrain/goproxy/internal/work"
 )
 
 // Break init loop.

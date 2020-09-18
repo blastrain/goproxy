@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cache"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cache"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // actionList returns the list of actions in the dag rooted at root
@@ -711,7 +711,7 @@ func (b *Builder) build(a *Action) (err error) {
 
 	// For gccgo on ELF systems, we write the build ID as an assembler file.
 	// This lets us set the SHF_EXCLUDE flag.
-	// This is read by readGccgoArchive in github.com/knocknote/goproxy/internal/buildid/buildid.go.
+	// This is read by readGccgoArchive in github.com/blastrain/goproxy/internal/buildid/buildid.go.
 	if a.buildID != "" && cfg.BuildToolchainName == "gccgo" {
 		switch cfg.Goos {
 		case "aix", "android", "dragonfly", "freebsd", "linux", "netbsd", "openbsd", "solaris":

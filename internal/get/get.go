@@ -13,13 +13,13 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/load"
-	"github.com/knocknote/goproxy/internal/search"
-	"github.com/knocknote/goproxy/internal/str"
-	"github.com/knocknote/goproxy/internal/web"
-	"github.com/knocknote/goproxy/internal/work"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/load"
+	"github.com/blastrain/goproxy/internal/search"
+	"github.com/blastrain/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/web"
+	"github.com/blastrain/goproxy/internal/work"
 )
 
 var CmdGet = &base.Command{

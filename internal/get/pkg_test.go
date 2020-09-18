@@ -5,7 +5,7 @@
 package get
 
 import (
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/str"
 	"reflect"
 	"strings"
 	"testing"

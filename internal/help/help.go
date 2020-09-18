@@ -16,7 +16,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/knocknote/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/base"
 )
 
 // Help implements the 'help' command.

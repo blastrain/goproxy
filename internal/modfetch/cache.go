@@ -14,13 +14,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/lockedfile"
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/par"
-	"github.com/knocknote/goproxy/internal/renameio"
-	"github.com/knocknote/goproxy/internal/semver"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/lockedfile"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/par"
+	"github.com/blastrain/goproxy/internal/renameio"
+	"github.com/blastrain/goproxy/internal/semver"
 )
 
 var QuietLookup bool // do not print about lookups

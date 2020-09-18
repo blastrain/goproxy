@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/base"
 )
 
 // The flag handling part of go commands such as test is large and distracting.

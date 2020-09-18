@@ -7,8 +7,8 @@ package base
 import (
 	"flag"
 
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/str"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/str"
 )
 
 // A StringsFlag is a command-line flag that interprets its argument

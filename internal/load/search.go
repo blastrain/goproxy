@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/search"
+	"github.com/blastrain/goproxy/internal/search"
 )
 
 // MatchPackage(pattern, cwd)(p) reports whether package p matches pattern in the working directory cwd.

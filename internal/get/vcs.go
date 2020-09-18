@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/knocknote/goproxy/internal/singleflight"
+	"github.com/blastrain/goproxy/internal/singleflight"
 	"log"
 	"net/url"
 	"os"
@@ -18,9 +18,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/knocknote/goproxy/internal/base"
-	"github.com/knocknote/goproxy/internal/cfg"
-	"github.com/knocknote/goproxy/internal/web"
+	"github.com/blastrain/goproxy/internal/base"
+	"github.com/blastrain/goproxy/internal/cfg"
+	"github.com/blastrain/goproxy/internal/web"
 )
 
 // A vcsCmd describes how to use a version control system

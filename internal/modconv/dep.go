@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/knocknote/goproxy/internal/modfile"
-	"github.com/knocknote/goproxy/internal/module"
-	"github.com/knocknote/goproxy/internal/semver"
+	"github.com/blastrain/goproxy/internal/modfile"
+	"github.com/blastrain/goproxy/internal/module"
+	"github.com/blastrain/goproxy/internal/semver"
 )
 
 func ParseGopkgLock(file string, data []byte) (*modfile.File, error) {

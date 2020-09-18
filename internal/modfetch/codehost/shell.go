@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/knocknote/goproxy/internal/modfetch/codehost"
+	"github.com/blastrain/goproxy/internal/modfetch/codehost"
 )
 
 func usage() {
