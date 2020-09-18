@@ -9,7 +9,7 @@ RUN cd /src/goproxy &&\
 
 FROM alpine:latest
 
-RUN apk add --no-cache -U git mercurial subversion bzr fossil
+RUN apk add --no-cache -U git mercurial subversion 
 
 COPY --from=build /src/goproxy/bin/goproxy /goproxy
 
