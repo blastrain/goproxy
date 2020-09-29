@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/goproxyio/goproxy/v2/robustio"
+	"github.com/blastrain/goproxy/robustio"
 )
 
 const patternSuffix = ".tmp"

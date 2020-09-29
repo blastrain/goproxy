@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goproxyio/goproxy/v2/sumdb"
+	"github.com/blastrain/goproxy/sumdb"
 
 	"golang.org/x/mod/module"
 )

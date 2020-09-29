@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goproxyio/goproxy/v2/renameio"
-	"github.com/goproxyio/goproxy/v2/sumdb"
+	"github.com/blastrain/goproxy/renameio"
+	"github.com/blastrain/goproxy/sumdb"
 )
 
 // ListExpire list data expire data duration.

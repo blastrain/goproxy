@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goproxyio/goproxy/v2/robustio"
+	"github.com/blastrain/goproxy/robustio"
 )
 
 func TestConcurrentReadsAndWrites(t *testing.T) {

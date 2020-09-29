@@ -1,8 +1,8 @@
 # GOPROXY
 
-[![CircleCI](https://circleci.com/gh/goproxyio/goproxy.svg?style=svg)](https://circleci.com/gh/goproxyio/goproxy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/goproxyio/goproxy)](https://goreportcard.com/report/github.com/goproxyio/goproxy)
-[![GoDoc](https://godoc.org/github.com/goproxyio/goproxy?status.svg)](https://godoc.org/github.com/goproxyio/goproxy)
+[![CircleCI](https://circleci.com/gh/blastrain/goproxy.svg?style=svg)](https://circleci.com/gh/blastrain/goproxy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/blastrain/goproxy)](https://goreportcard.com/report/github.com/blastrain/goproxy)
+[![GoDoc](https://godoc.org/github.com/blastrain/goproxy?status.svg)](https://godoc.org/github.com/blastrain/goproxy)
 
 A global proxy for go modules. see: [https://goproxy.io](https://goproxy.io)
 
@@ -11,7 +11,7 @@ A global proxy for go modules. see: [https://goproxy.io](https://goproxy.io)
     The default cacheDir is GOPATH, you can set it up by yourself according to the situation.
 
 ## Build
-    git clone https://github.com/goproxyio/goproxy.git
+    git clone https://github.com/blastrain/goproxy.git
     cd goproxy
     make
 

@@ -34,7 +34,7 @@ import (
 	"time"
 
 	"github.com/blastrain/goproxy/auth"
-	"github.com/goproxyio/goproxy/v2/proxy"
+	"github.com/blastrain/goproxy/proxy"
 	"golang.org/x/mod/module"
 )
 
